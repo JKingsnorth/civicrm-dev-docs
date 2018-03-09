@@ -64,7 +64,7 @@ See the [routing](/framework/routing.md) page for details on the XML schema.
 [PHPIDS](https://github.com/PHPIDS/PHPIDS) provides an extra layer of
 security to mitigate the risk of cross-site scripting vulnerabilities, SQL
 injection vulnerabilities, and so on.  In CiviCRM, PHPIDS scans all inputs
-for suspicious data (such as complex Javascriptor SQL code) before allowing
+for suspicious data (such as complex Javascript or SQL code) before allowing
 the page-controller to execute.
 
 However, in some rare occasions, it is expected that the page-controller
